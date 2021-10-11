@@ -1,17 +1,384 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="fav.png" type="image/gif" sizes="16x16">
-    <link href="https://fonts.googleapis.com/css?family=Leckerli One|Ubuntu|Raleway|Newsreader|Dancing Script" rel="stylesheet">
-    <title>Adroit-Media</title>
-</head>
-<body style="background-color: black;text-align: center; margin: 50vh 0 0 0;">
-    <div>
-        <h1 style="font-family: ubuntu;color: white;">ADROIT MEDIA Is Coming Soon ...</h1>
-        <p style="color: grey; font-family: ubuntu;">Have patience !!!</p>
-    </div>
-</body>
-</html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>AdroitMedia</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Around - Multipurpose Bootstrap Template">
+    <meta name="keywords" content="influencer, affiliate marketing, marketing, Instagram marketing, meme marketing, mass marketing, seo, facebook market, digital marketing, vector marketing, marketing information system, international marketing, social media marketing, marketing jobs, 4 p's of marketing, 4 ps of marketing, 4ps of marketing, cmo, marketing definition, marketing agency, marketing strategies, marketing strategy, marketing research, market segmentation, what is affiliate marketing, psychographic, marketing mix, digital marketing agency, target market, what is marketing, segmentation, marketing plan, network marketing, email marketing, advertising agency, marketing funnel, marketing management, marketing manager content marketing, guerilla marketing, marketing manager salary, competitor analysis word of mouth, multi level marketing, green market, lead generation, go to market strategy, influencer marketing, business marketing, market force, digital marketing salary, affiliate programs, marketing consultant, what is digital marketing">
+    <meta name="author" content="Createx Studio">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="files/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/fav/favicon-16x16.png">
+    <link rel="manifest" href="files/fav/site.webmanifest">
+    <link rel="mask-icon" href="files/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Page loading styles-->
+    <style>   
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #737491;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #766df4;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      
+    </style>
+    <!-- Page loading scripts-->
+    <script type="text/javascript" async="" src="./files/analytics.js.download"></script><script type="text/javascript" async="" src="./files/js"></script><script async="" src="./files/gtm.js.download"></script><script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+      
+    </script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="./files/simplebar.min.css">
+    <link rel="stylesheet" media="screen" href="./files/tiny-slider.css">
+    <link rel="stylesheet" media="screen" href="./files/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="./files/theme.min.css">
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  <style></style><style></style></head>
+  <!-- Body-->
+  <body>
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+    <!-- Page loading spinner-->
+    
+    <main class="page-wrapper">
+      <!-- Navbar (Solid background)-->
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+      <header class="header navbar navbar-expand-lg navbar-light bg-dark navbar-sticky" data-scroll-header="" data-fixed-element="">
+        <div class="container px-0 px-xl-3">
+          <button class="navbar-toggler ms-n2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="https://adroitmedia.in/"><img class="d-none d-lg-block" src="./files/img/logo-dark.png" alt="Around" width="153"><img class="d-lg-none" src="files/img/logo-icon.png" alt="Around" width="58"></a>
+          
+          <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+            <div class="offcanvas-header navbar-shadow">
+              <h5 class="mt-1 mb-0">Menu</h5>
+              <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <!-- Menu-->
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown dropdown-mega"><a class="nav-link " href="#home" style="scroll-behavior: smooth;"> HOME</a>
+                </li>
+                <li class="nav-item dropdown dropdown-mega"><a class="nav-link " href="#services" style="scroll-behavior: smooth;">SERVICES</a>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link " href="#about">WHAT WE DO</a>  
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link " href="#contact">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Page content-->
+      <!-- Hero with parallax effect-->
+      <section class="position-relative" id="home">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark "></div>
+        <div class="position-relative zindex-5 container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-7 order-md-2 overflow-hidden">
+              <div class="parallax me-n7 me-md-0" style="max-width: 1030px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;"><img class="d-block" src="./files/img/lines.png" alt="Lines" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                <div class="parallax-layer" style="z-index: 2; transform: translate3d(1.9px, -2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;" data-depth="0.13"><img src="./files/img/image.webp" alt="Image"></div>
+                
+                
+                <div class="parallax-layer" style="z-index: 3; transform: translate3d(6.5px, -7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;" data-depth="0.45"><img src="./files/img/shape-4.png" alt="Badge"></div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5 pt-4 pb-5 py-md-5">
+              <div class="mx-auto me-lg-4 ps-xl-3 order-md-1 text-center text-md-start" style="max-width: 420px;">
+                <h1 class="text-light mb-3">Get more sales, traffic with us!</h1>
+                <p class="text-light fs-lg">We offer flexible marketing strategies</p>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start pb-2 pb-xl-2 mb-3">
+                  <a class="btn btn-dark me-4" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">I'M A BRAND</a>
+                  <div class="d-flex align-items-center">
+                    <a class="btn btn-dark me-4" href="https://forms.gle/jeXHddxX65J97Mj78" target="_blank">I'M AN ADMIN</a></div>
+                </div>
+              </div>
+              <div class="mx-auto me-lg-4 ps-xl-3 order-md-1 text-center text-md-start" style="max-width: 420px;">
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start pb-2 pb-xl-2 mb-5 ms-5"><a class="btn btn-dark me-4" href="https://forms.gle/s4XzKwvkFUoSAGwg7" target="_blank">I'M A INFLUENCER</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div >
+      </section >
+      
+      <!-- Services-->
+      <section class="bg-secondary" id="services">
+        <div class="container pt-5 pb-4 py-md-3 py-lg-3">
+          <div class="text-center mb-5 pt-3 pt-lg-4">
+            <h2 class="h1 mb-4" >Services</h2>
+            <p class="text-muted">Choose from the given services of our unique requirements.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">
+              <div class="card card-curved-body card-hover border-0 shadow mx-auto" >
+                <div class="card-img-top card-img-gradient"><img src="./files/img/MM.jpg" alt="SERVICES"></div>
+                <div class="card-body text-center">
+                  <h3 class="h6 card-title mb-2">MEME MARKETING</h3>
+                  <p class="fs-xs text-body mb-0">Memes are being used by some of India's most well-known brands as part of their marketing strategy.</p>
+                </div>
+              </div></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">
+              <div class="card card-curved-body card-hover border-0 shadow mx-auto" >
+                <div class="card-img-top card-img-gradient"><img src="./files/img/MaM.jpg" alt="SERVICES"></div>
+                <div class="card-body text-center">
+                  <h3 class="h6 card-title mb-2">MASS MARKETING</h3>
+                  <p class="fs-xs text-body mb-0">A strategy in which we appeal to the entire market with a unique idea, to the widest possible audience.</p>
+                </div>
+              </div></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">
+              <div class="card card-curved-body card-hover border-0 shadow mx-auto">
+                <div class="card-img-top card-img-gradient"><img src="./files/img/CO.jpg" alt="SERVICES"></div>
+                <div class="card-body text-center">
+                  <h3 class="h6 card-title mb-2">CONTENT CREATION</h3>
+                  <p class="fs-xs text-body mb-0">The high-level planning,execution & promotion is the key factor to any brand's success rate.</p>
+                </div>
+              </div></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">
+              <div class="card card-curved-body card-hover border-0 shadow mx-auto">
+                <div class="card-img-top card-img-gradient"><img src="./files/img/WB.jpg" alt="SERVICES"></div>
+                <div class="card-body text-center">
+                  <h3 class="h6 card-title mb-2">WEB-DEVELOPMENT/DESIGN</h3>
+                  <p class="fs-xs text-body mb-0">Turning ideas into web sites because your website is like a business card, it should look good.</p>
+                </div>
+              </div></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">
+              <div class="card card-curved-body card-hover border-0 shadow mx-auto">
+                <div class="card-img-top card-img-gradient"><img src="./files/img/VP.jpg" alt="SERVICES"></div>
+                <div class="card-body text-center">
+                  <h3 class="h6 card-title mb-2">VIDEO PRODUCTION</h3>
+                  <p class="fs-xs text-body mb-0">
+                    Increase engagement, work professionally and add value to your content with the next-level video production team.</p>
+                </div>
+              </div></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="https://forms.gle/o1BkzDvKRxPm6x5L9" target="_blank">
+                <div class="card card-curved-body card-hover border-0 shadow mx-auto">
+                <div class="card-img-top card-img-gradient"><img src="./files/img/PS.jpg" alt="SERVICES"></div>
+                <div class="card-body text-center">
+                  <h3 class="h6 card-title mb-2">PORTFOLIO PHOTOSHOOT</h3>
+                  <p class="fs-xs text-body mb-0">We have top-notch skilled photographers, give us a go and get your work handled by professionals.</p>
+                </div>
+              </div></a></div>
+          </div>
+        </div>
+      </section>
+      <!-- About-->
+      <section class="bg-secondary" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 mt-3 mt-md-0 py-5 py-md-0">
+              <h1 class="text-lg-nowrap pb-2 text-center text-md-start">What We Do</h1>
+              <p class="pb-2 text-center text-md-start">Adroit Media is a digital marketing & media agency. We are committed to meeting your company’s needs. We create a brand strategy and visual content. We are passionate about our work and we don't rest until we deliver something extraordinary.</p>
+              <p>We have a highly qualified team of dedicated social strategists, together with our team of research and insight specialists, work to acquire tangible consumer insights to form the basis of our creative ideas and strategies for each of our clients. We ensure the smooth and successful execution of all projects of our clients.</p>
+              <div class="text-center text-md-start"></div>
+            </div>
+            <div class="col-md-7">
+              <div class="parallax ms-auto" style="max-width: 757px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;"><img class="d-block" src="./files/img/lines(1).png" alt="Lines" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                <div class="parallax-layer" style="z-index: 2; transform: translate3d(1.9px, -2.6px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;" data-depth="0.15"><img src="./files/img/image(1).png" alt="Image"></div>
+                <div class="parallax-layer" data-depth="0.25" style="transform: translate3d(3.2px, -4.3px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="./files/img/shape.png" alt="Shape"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services-->
+    
+      <!-- Team-->
+      <section class="container pt-5 pb-4 pb-md-5 pb-lg-6 pt-md-6 pt-lg-7">
+        <h2 class="text-center pt-2 pt-md-0 mb-5">Our Team</h2>
+        <div class="row pb-3 pb-md-0">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 20rem;"><!-- <a class="card-floating-icon fs-base" href="##"><i class="fa fa-linkedin"></i></a> -->
+              <div class="card-img-top card-img-gradient"><img src="./files/img/ppt.jpg" alt="team"></div>
+              <div class="card-body text-center">
+                <h3 class="h6 card-title mb-2">Atharv Singh</h3>
+                <!-- <p class="fs-xs text-body mb-0">Social media strategist</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 20rem;"><!-- <a class="card-floating-icon fs-base" href="##"><i class="fa fa-linkedin"></i></a> -->
+              <div class="card-img-top card-img-gradient"><img src="./files/img/ppt.jpg" alt="team"></div>
+              <div class="card-body text-center">
+                <h3 class="h6 card-title mb-2">Manish Kumar</h3>
+                <!-- <p class="fs-xs text-body mb-0">Instagram expert</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 20rem;"><!-- <a class="card-floating-icon fs-base" href="##"><i class="fa fa-linkedin"></i></a> -->
+              <div class="card-img-top card-img-gradient"><img src="./files/img/ppt.jpg" alt="team"></div>
+              <div class="card-body text-center">
+                <h3 class="h6 card-title mb-2">Amit Pundeer</h3>
+                <!-- <p class="fs-xs text-body mb-0">Content creator</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 20rem;"><!-- <a class="card-floating-icon fs-base" href="##"><i class="fa fa-linkedin"></i></a> -->
+              <div class="card-img-top card-img-gradient"><img src="./files/img/ppt.jpg" alt="teams"></div>
+              <div class="card-body text-center">
+                <h3 class="h6 card-title mb-2">Pawan Rajput</h3>
+                <!-- <p class="fs-xs text-body mb-0">Social media educator</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials-->
+     <!--  <section class="" id="demos">
+        <div class="container pt-5 pb-4 py-md-3 py-lg-3">
+          
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-2"><a class="d-block nav-heading text-center" href="#/demo-business-consulting.html">
+                <div class="card card-hover border-0 shadow-lg mb-4"><img class="card-img" src="https://multichannelmerchant.com/wp-content/uploads/2018/07/digitalmarketing850.jpg" alt="Business Consulting"></div>
+                <h3 class="h5 nav-heading-title mb-0">Business Consulting</h3><span class="fs-sm fw-normal text-muted">Corporate, Business, Agency</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-2"><a class="d-block nav-heading text-center" href="#/demo-shop-homepage.html">
+                <div class="card card-hover border-0 shadow-lg mb-4"><img class="card-img" src="https://multichannelmerchant.com/wp-content/uploads/2018/07/digitalmarketing850.jpg" alt="Shop Homepage"></div>
+                <h3 class="h5 nav-heading-title mb-0">Shop Homepage</h3><span class="fs-sm fw-normal text-muted">E-Commerce, Retail, Electronics, Fashion</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-2"><a class="d-block nav-heading text-center" href="#/demo-booking-directory.html">
+                <div class="card card-hover border-0 shadow-lg mb-4"><img class="card-img" src="https://multichannelmerchant.com/wp-content/uploads/2018/07/digitalmarketing850.jpg" alt="Booking &amp;amp; Directory"></div>
+                <h3 class="h5 nav-heading-title mb-0">Booking / Directory</h3><span class="fs-sm fw-normal text-muted">Listings, Flights, Destinations</span></a></div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Clients (carousel)-->
+      <section class="bg-secondary py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="./files/img/01_color.png" alt="Logo" width="180"><img class="swap-from" src="./files/img/01_gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="./files/img/02_color.png" alt="Logo" width="180"><img class="swap-from" src="./files/img/02_gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="./files/img/03_color.png" alt="Logo" width="180"><img class="swap-from" src="./files/img/03_gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="./files/img/04_color.png" alt="Logo" width="180"><img class="swap-from" src="./files/img/04_gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="./files/img/05_color.png" alt="Logo" width="180"><img class="swap-from" src="./files/img/05_gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="./files/img/06_color.png" alt="Logo" width="180"><img class="swap-from" src="./files/img/06_gray.png" alt="Logo" width="180"></a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact form + Details-->
+      <footer class="footer bg-dark pt-5 pb-4" id="contact">
+        <div class="container pb-2 text-center text-md-start">
+          <div class="row pt-md-3 pb-3">
+            <div class="col-lg-3 col-md-2"><a class="d-block mx-auto mb-4" href="https://around.createx.studio/index.html" style="width: 70px;"><img src="files/img/logo-icon.png" alt="logo"></a>
+              <h6 style="text-align: center;">We offer flexible marketing <br><span >strategies.</span> </h6>
+            </div>
+            <div class="col-lg-3 col-md-4 pb-4">
+              <div class="widget widget-light">
+                <h4 class="widget-title mb-3">Contacts</h4>
+                <ul>
+                  <li><a class="widget-link" href="mailto:adroitmedia.pvt@gmail.com">adroitmedia.pvt@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 pb-4">
+              <div class="widget widget-light">
+                <h4 class="widget-title mb-3">Career</h4>
+                <ul>
+                  <li><a class="widget-link" href="https://forms.gle/7LPQ1JXmXhhh9yydA" target="_blank">Join Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 pb-4">
+              <div class="widget widget-light">
+                <h4 class="widget-title mb-3">Follow</h4><a class="btn-social bs-outline bs-light bs-google bs-lg me-2 mb-2" href="https://www.instagram.com/adroitmedia.in/" target="_blank"><i class="fa fa-instagram"></i></a><a class="btn-social bs-outline bs-light bs-twitter bs-lg me-2 mb-2" href="https://twitter.com/adroitmedia_in" target="_blank"><i class="fa fa-twitter"></i></a><a class="btn-social bs-outline bs-light bs-twitter bs-lg mb-2" href="https://www.linkedin.com/in/adroitmedia/" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <p class="fs-sm text-center mb-0"><span class="text-light opacity-50">© All rights reserved. </span><a class="nav-link-style nav-link-light" href="https://adroitmedia.in/" target="_blank" rel="noopener">Adroit Media</a></p>
+        </div>
+      </footer>
+    <!-- Back to top button-->
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="./files/bootstrap.bundle.min.js.download"></script>
+    <script src="./files/simplebar.min.js.download"></script>
+    <script src="./files/smooth-scroll.polyfills.min.js.download"></script>
+    <script src="./files/tiny-slider.js.download"></script>
+    <script src="./files/lightgallery.min.js.download"></script>
+    <script src="./files/lg-video.min.js.download"></script>
+    <script src="./files/parallax.min.js.download"></script>
+    <!-- Main theme script-->
+    <script src="./files/theme.min.js.download"></script>
+  
+</body></html>
