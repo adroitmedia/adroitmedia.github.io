@@ -9323,7 +9323,7 @@ fieldset:disabled .btn {
 
 .bg-secondary {
     --bs-bg-opacity: 1;
-    background-color: #f7f7fc !important
+    background-color: #EEEEEE !important
 }
 
 .bg-success {
